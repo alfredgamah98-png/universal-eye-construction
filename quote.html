@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Request a Quote | Universal Eye Construction Company</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700;900&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-icon"><i class="fas fa-eye"></i></span><span class="logo-text">UNIVERSAL EYE<br><small>CONSTRUCTION CO.</small></span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="projects.html">Projects</a></li><li><a href="about.html">About</a></li><li><a href="why-us.html">Why Choose Us</a></li><li><a href="blog.html">Insights</a></li><li><a href="contact.html">Contact</a></li><li><a href="quote.html" class="btn-nav active">Get a Quote</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="page-hero-content container">
+      <h1>Request a Quote</h1>
+      <p class="breadcrumb"><a href="index.html">Home</a><span>/</span>Request a Quote</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="quote-page-grid">
+        <!-- QUOTE FORM -->
+        <div class="quote-form-wrap animate-fade-left">
+          <div class="quote-form-header">
+            <span class="section-tag">Free Quote</span>
+            <h2>Tell Us About Your <span class="text-gold">Project</span></h2>
+            <p>Fill in the details below and our team will prepare a detailed, no-obligation quote within 48 hours.</p>
+          </div>
+          <form class="quote-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Full Name *</label>
+                <input type="text" placeholder="Your full name" required/>
+              </div>
+              <div class="form-group">
+                <label>Phone Number *</label>
+                <input type="tel" placeholder="+265 xxx xxx xxx" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Email Address *</label>
+              <input type="email" placeholder="your@email.com" required/>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Project Type *</label>
+                <select required>
+                  <option value="" disabled selected>Select project type</option>
+                  <option>New Residential Home</option>
+                  <option>Commercial Building</option>
+                  <option>Apartment Complex</option>
+                  <option>Office Block</option>
+                  <option>Industrial / Warehouse</option>
+                  <option>Renovation / Remodeling</option>
+                  <option>Civil Engineering Works</option>
+                  <option>Painting & Finishing</option>
+                  <option>Plumbing & Electrical</option>
+                  <option>Fencing / Perimeter Wall</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Estimated Budget (MWK) *</label>
+                <select required>
+                  <option value="" disabled selected>Select budget range</option>
+                  <option>Under MWK 5 Million</option>
+                  <option>MWK 5M – 15M</option>
+                  <option>MWK 15M – 50M</option>
+                  <option>MWK 50M – 100M</option>
+                  <option>MWK 100M – 500M</option>
+                  <option>Over MWK 500 Million</option>
+                  <option>To Be Determined</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Project Location</label>
+                <input type="text" placeholder="City / District in Malawi"/>
+              </div>
+              <div class="form-group">
+                <label>Desired Start Date</label>
+                <input type="date"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Plot / Land Size</label>
+              <input type="text" placeholder="e.g. 40m x 20m, or 800 sqm"/>
+            </div>
+            <div class="form-group">
+              <label>Project Description *</label>
+              <textarea placeholder="Please describe your project in as much detail as possible. Include number of rooms, floors, special requirements, materials preferences, etc." required style="min-height:160px;"></textarea>
+            </div>
+            <div class="form-group">
+              <label>How Did You Hear About Us?</label>
+              <select>
+                <option value="" disabled selected>Select an option</option>
+                <option>Facebook</option>
+                <option>WhatsApp</option>
+                <option>Word of Mouth / Referral</option>
+                <option>Google Search</option>
+                <option>Seen Our Work on Site</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-gold form-submit" style="font-size:1.05rem; padding:16px 36px;">
+              Submit Quote Request <i class="fas fa-paper-plane"></i>
+            </button>
+            <div class="form-success" style="display:none;">
+              <i class="fas fa-check-circle" style="font-size:2rem; display:block; margin-bottom:10px;"></i>
+              <strong>Quote Request Submitted!</strong>
+              <p style="margin-top:8px;">Thank you! Our team will review your project details and contact you within 48 hours with a detailed quote.</p>
+            </div>
+          </form>
+        </div>
+
+        <!-- SIDE INFO -->
+        <div class="quote-side animate-fade-right">
+          <div class="quote-why-card">
+            <h4><i class="fas fa-shield-alt"></i> Why Get a Quote With Us?</h4>
+            <ul>
+              <li><i class="fas fa-check"></i> 100% Free, No Obligation</li>
+              <li><i class="fas fa-check"></i> Detailed Itemised Quote</li>
+              <li><i class="fas fa-check"></i> Response Within 48 Hours</li>
+              <li><i class="fas fa-check"></i> Expert Advice Included</li>
+              <li><i class="fas fa-check"></i> Fixed Price — No Hidden Costs</li>
+            </ul>
+          </div>
+          <div class="quote-contact-card">
+            <h4>Prefer to Talk to Us?</h4>
+            <p>Call or WhatsApp us directly for a faster response:</p>
+            <a href="tel:+265990970520" class="qc-call">
+              <i class="fas fa-phone"></i> +265 990 970 520
+            </a>
+            <a href="https://wa.me/265990970520?text=Hello%20I%20would%20like%20to%20request%20a%20quote!" target="_blank" class="wa-contact-btn" style="margin-top:12px;">
+              <i class="fab fa-whatsapp" style="font-size:1.2rem;"></i> WhatsApp Us
+            </a>
+          </div>
+          <div class="quote-process-card">
+            <h4>Our Quote Process</h4>
+            <div class="quote-step"><span>01</span><p>You submit the form with your project details</p></div>
+            <div class="quote-step"><span>02</span><p>Our team reviews your requirements</p></div>
+            <div class="quote-step"><span>03</span><p>We contact you within 48 hours</p></div>
+            <div class="quote-step"><span>04</span><p>Site visit (if needed) to finalise details</p></div>
+            <div class="quote-step"><span>05</span><p>You receive a full, itemised quote</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top"><div class="container footer-grid">
+      <div class="footer-brand"><a href="index.html" class="nav-logo"><span class="logo-icon"><i class="fas fa-eye"></i></span><span class="logo-text">UNIVERSAL EYE<br><small>CONSTRUCTION CO.</small></span></a><p>Building quality structures across Malawi since 2014.</p><div class="social-links"><a href="https://www.facebook.com/SirAlfredGamah" target="_blank"><i class="fab fa-facebook-f"></i></a><a href="https://wa.me/265990970520" target="_blank"><i class="fab fa-whatsapp"></i></a><a href="mailto:alfredgamah98@gmail.com"><i class="fas fa-envelope"></i></a></div></div>
+      <div class="footer-links"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="projects.html">Projects</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-links"><h4>Services</h4><ul><li><a href="services.html">Building Construction</a></li><li><a href="services.html">Renovation</a></li><li><a href="services.html">Civil Engineering</a></li><li><a href="services.html">Painting</a></li></ul></div>
+      <div class="footer-contact"><h4>Contact</h4><ul><li><i class="fas fa-map-marker-alt"></i>Blantyre, Malawi</li><li><i class="fas fa-phone"></i><a href="tel:+265990970520">+265 990 970 520</a></li><li><i class="fas fa-envelope"></i><a href="mailto:alfredgamah98@gmail.com">alfredgamah98@gmail.com</a></li></ul></div>
+    </div></div>
+    <div class="footer-bottom"><p>&copy; 2025 Universal Eye Construction Company. All Rights Reserved.</p></div>
+  </footer>
+  <a href="https://wa.me/265990970520?text=Hello!" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i><span class="wa-tooltip">Chat with us!</span></a>
+
+  <style>
+    .quote-page-grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 50px; align-items: start; }
+    .quote-form-wrap { background: var(--white); border-radius: var(--radius-lg); padding: 44px; box-shadow: var(--shadow); }
+    .quote-form-header { margin-bottom: 32px; }
+    .quote-form-header .section-tag { display: block; margin-bottom: 10px; }
+    .quote-form-header h2 { margin-bottom: 10px; }
+    .quote-form-header p { color: var(--gray); font-size: 0.93rem; }
+    .quote-side { display: flex; flex-direction: column; gap: 24px; }
+    .quote-why-card, .quote-contact-card, .quote-process-card { background: var(--white); border-radius: var(--radius-lg); padding: 28px; box-shadow: 0 4px 24px rgba(10,22,40,0.07); }
+    .quote-why-card h4, .quote-contact-card h4, .quote-process-card h4 { margin-bottom: 16px; font-size: 1rem; display: flex; align-items: center; gap: 8px; }
+    .quote-why-card h4 i { color: var(--gold); }
+    .quote-why-card ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .quote-why-card ul li { display: flex; align-items: center; gap: 10px; font-size: 0.92rem; font-weight: 500; }
+    .quote-why-card ul li i { color: #22c55e; }
+    .quote-contact-card p { color: var(--gray); font-size: 0.9rem; margin-bottom: 14px; }
+    .qc-call { display: flex; align-items: center; gap: 10px; background: var(--navy); color: var(--white); padding: 12px 20px; border-radius: var(--radius); font-weight: 700; font-size: 1rem; transition: var(--transition); }
+    .qc-call:hover { background: var(--navy-mid); }
+    .qc-call i { color: var(--gold); }
+    .quote-process-card { border-top: 4px solid var(--gold); }
+    .quote-step { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 14px; }
+    .quote-step:last-child { margin-bottom: 0; }
+    .quote-step span { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--gold); flex-shrink: 0; min-width: 26px; }
+    .quote-step p { color: var(--gray); font-size: 0.88rem; }
+    @media(max-width:1000px){ .quote-page-grid { grid-template-columns: 1fr; } }
+  </style>
+  <script src="js/main.js"></script>
+</body>
+</html>
